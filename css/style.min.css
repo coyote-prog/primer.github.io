@@ -2647,6 +2647,10 @@ body:has(.menu-toggler-btn.active) {
     .section-link.compromises__link:link {
         color: currentColor;
     }
+
+    .section-link.compromises__link:hover {
+        color: #fff;
+    }
 }
 
 .compromises__link:hover .compromises__icon-box {
