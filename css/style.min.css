@@ -2643,13 +2643,13 @@ body:has(.menu-toggler-btn.active) {
     line-height: 156%
 }
 
-@media (hover: hover) {
+@media(hover: hover) {
     .section-link.compromises__link:link {
         color: currentColor;
     }
 }
 
-@media (hover: hover) {
+@media(hover: hover) {
     .section-link.compromises__link:hover {
         color: #fff;
     }
