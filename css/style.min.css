@@ -1797,11 +1797,11 @@ body:has(.menu-toggler-btn.active) {
 }
 
 .top__link:link {
-    color: #fff;
+    color: #1b1a1a
 }
 
 .top__link:visited {
-    color: currentColor;
+    color: currentColor
 }
 
 .top__link:hover,
@@ -1860,6 +1860,12 @@ body:has(.menu-toggler-btn.active) {
     background-color: #000;
     -ms-flex-item-align: end;
     align-self: flex-end
+}
+
+@media(hover:hover){
+    .top__link.top__link--team:link{
+        color: whitesmoke;
+    }
 }
 
 .top__link--finance {
