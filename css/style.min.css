@@ -2644,7 +2644,7 @@ body:has(.menu-toggler-btn.active) {
 }
 
 @media (hover: hover) {
-    .compromises__link:link {
+    .section-link.compromises__link:link {
         color: currentColor;
     }
 }
