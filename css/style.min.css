@@ -1796,7 +1796,7 @@ body:has(.menu-toggler-btn.active) {
     transition: all .35s
 }
 
-@media(hover:hover) {
+@media(hover: hover) {
 
     .top__link:link {
         color: #1b1a1a
