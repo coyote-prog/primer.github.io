@@ -1796,19 +1796,22 @@ body:has(.menu-toggler-btn.active) {
     transition: all .35s
 }
 
-.top__link:link {
-    color: #1b1a1a
-}
+@media(hover:hover) {
 
-.top__link:visited {
-    color: currentColor
-}
+    .top__link:link {
+        color: #1b1a1a
+    }
 
-.top__link:hover,
-.top__link:focus {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1)
+    .top__link:visited {
+        color: currentColor
+    }
+
+    .top__link:hover,
+    .top__link:focus {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+    }
 }
 
 @media(hover: none) {
@@ -1862,8 +1865,8 @@ body:has(.menu-toggler-btn.active) {
     align-self: flex-end
 }
 
-@media(hover:hover){
-    .top__link.top__link--team:link{
+@media(hover:hover) {
+    .top__link.top__link--team:link {
         color: whitesmoke;
     }
 }
