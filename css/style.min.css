@@ -1797,11 +1797,11 @@ body:has(.menu-toggler-btn.active) {
 }
 
 .top__link:link {
-    color: #1b1a1a
+    color: #fff;
 }
 
 .top__link:visited {
-    color: currentColor
+    color: currentColor;
 }
 
 .top__link:hover,
